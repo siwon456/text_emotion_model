@@ -73,6 +73,11 @@ F1-Score: 정밀도와 재현율의 조화 평균으로, 클래스 불균형이 
 모델의 성능을 훈련 데이터셋과 검증 데이터셋에 대해 측정한 결과는 다음과 같습니다. (아래 수치는 실제 실행 결과에 따라 달라질 수 있습니다.)
 
 학습데이터 그래프 및 혼동행렬
+<div style="display: inline-block;">
+  <img src="image.png" width="100" height="100">
+  <img src="image.png" width="100" height="100">
+</div>
+
 ![Image](https://github.com/user-attachments/assets/7721fd6b-a06e-49b4-8690-48485bd13e8f) ![Image](https://github.com/user-attachments/assets/cd99fd62-c3e2-4f01-9576-e89618879cb5)
 
 검증데이터 그래프 및 혼동행렬
