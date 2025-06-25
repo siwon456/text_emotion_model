@@ -95,6 +95,9 @@ F1-Score: 정밀도와 재현율의 조화 평균으로, 클래스 불균형이 
 ![Image](https://github.com/user-attachments/assets/b2cb0d5b-7987-405e-91fe-238bff144a82) | ![Image](https://github.com/user-attachments/assets/0d168abe-9657-4daf-be6e-61e1c19696ea) 
 ---|---|
 
+훈련 과정
+
+![Image](https://github.com/user-attachments/assets/dc2d5060-f7ac-451c-9421-91ab16272073)
 
 분석: 검증 데이터에서 약 69%의 정확도를 달성했으며, 각 클래스별 F1-Score 또한 준수한 성능을 보였습니다. 훈련 데이터와 검증 데이터의 성능 차이가 크지 않아, 모델이 과적합되지 않고 새로운 데이터에 대해서도 일반화 성능을 잘 유지하고 있음을 알 수 있습니다.
 
