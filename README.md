@@ -5,6 +5,7 @@
 
 # 데이터 전처리 (Data Preprocessing)
 모델이 텍스트 데이터를 효과적으로 학습하기 위해, 원시(Raw) 데이터를 수치화하고 정규화하는 전처리 과정을 수행했습니다. 총 30만 건의 리뷰 데이터가 이 과정에 사용되었습니다.
+
 ![Image](https://github.com/user-attachments/assets/54ad4fd3-28d1-44f8-9834-da2a7f6c206b)
 
 # 데이터 로드 및 정제
@@ -46,6 +47,7 @@ Bidirectional LSTM Layer: 문장을 정방향과 역방향으로 모두 학습�
 Dropout Layers: 훈련 시 각각 50%, 40%의 뉴런을 무작위로 비활성화하여 모델의 과적합을 방지하고 일반화 성능을 향상시킵니다.
 
 Dense Layers: LSTM에서 추출된 특징을 바탕으로 최종 분류를 수행합니다. 활성화 함수로 ReLU와 Softmax를 사용하여 3개의 클래스('부정', '중립', '긍정')에 대한 각 확률을 출력합니다.
+
 ![Image](https://github.com/user-attachments/assets/8e8bd4c7-dfdb-47f2-a2ac-a43b0259d92c)
 
 # 훈련 설정 및 최적화
@@ -58,6 +60,7 @@ Loss Function: 다중 클래스 분류에 적합한 sparse_categorical_crossentr
 조기 종료 (Early Stopping):
 
 검증 데이터의 손실(val_loss)이 3 에포크(epoch) 연속으로 개선되지 않으면 학습을 자동으로 중단시켜 불필요한 훈련을 막고 최적의 모델 가중치를 확보했습니다.
+
 ![Image](https://github.com/user-attachments/assets/84f677b0-0397-45a9-928a-1681880fb3ab)
 
 # 모델 정확도 및 성능 평가
