@@ -36,6 +36,8 @@ padding='post': 문장 길이가 147보다 짧을 경우, 문장의 뒷부분에
 
 scikit-learn의 train_test_split을 사용하여 전체 데이터셋을 **훈련 데이터 (80%)**와 **검증 데이터 (20%)**로 분할했습니다. 이는 모델이 훈련 데이터에만 과적합되는 것을 방지하고 일반화 성능을 측정하는 데 필수적입니다.
 
+![Image](https://github.com/user-attachments/assets/a1225284-259e-4e47-bd9e-c507357caef4)
+
 # 모델 학습 (Model Training)
 전처리가 완료된 데이터를 사용하여 텍스트의 맥락을 효과적으로 이해할 수 있는 BiLSTM 모델을 설계하고 학습시켰습니다.
 
