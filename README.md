@@ -75,6 +75,7 @@ F1-Score: 정밀도와 재현율의 조화 평균으로, 클래스 불균형이 
 학습데이터 그래프 및 혼동행렬
 
 ![Image](https://github.com/user-attachments/assets/7721fd6b-a06e-49b4-8690-48485bd13e8f) | ![Image](https://github.com/user-attachments/assets/cd99fd62-c3e2-4f01-9576-e89618879cb5)
+---|---|
 
 검증데이터 그래프 및 혼동행렬
 ![Image](https://github.com/user-attachments/assets/0d168abe-9657-4daf-be6e-61e1c19696ea) ![Image](https://github.com/user-attachments/assets/b2cb0d5b-7987-405e-91fe-238bff144a82)
