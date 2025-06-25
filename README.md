@@ -59,10 +59,13 @@ Loss Function: 다중 클래스 분류에 적합한 sparse_categorical_crossentr
 
 # 모델 정확도 및 성능 평가
 모델 학습 완료 후, 훈련 데이터와 검증 데이터에 대한 성능을 다각도로 평가하여 모델의 신뢰도를 검증했습니다.
+
 훈련 데이터 
+
 ![Image](https://github.com/user-attachments/assets/6b816cb5-1eea-41f6-ace4-98847012ddb1)
 
 학습데이터
+
 ![Image](https://github.com/user-attachments/assets/4f4bf020-8219-44b6-8dcb-55f978f23200)
 # 평가 지표
 정확도 (Accuracy): 전체 예측 중 올바르게 예측된 비율.
